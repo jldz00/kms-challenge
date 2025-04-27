@@ -1,0 +1,24 @@
+{
+  "registration": {
+    "name": "Jose",
+    "email": "jose@mail.com",
+    "password": "password123"
+  },
+  "login": {
+    "valid": {
+      "username": "jose@mail.com",
+      "password": "password123"
+    },
+    "invalid": {
+      "username": "invalid@invalid.com",
+      "password": "invalidpassword"
+    }
+  },
+  "productSearch": {
+    "name": "Laptop",
+    "category": "Electronics"
+  },
+  "checkout": {
+    "creditCard": "1111111111111111"
+  }
+}

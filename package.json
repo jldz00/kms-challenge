@@ -1,0 +1,15 @@
+{
+  "name": "kms-challenge",
+  "version": "1.0.0",
+  "description": "KMS Challenge",
+  "scripts": {
+    "test:dev": "TEST_ENV=dev playwright test",
+    "test:test": "TEST_ENV=test playwright test",
+    "test:prod": "TEST_ENV=prod playwright test"
+  },
+  "author": "Jose Luis Dominguez",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "dotenv": "^16.5.0"
+  }
+}
